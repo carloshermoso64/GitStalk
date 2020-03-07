@@ -6,14 +6,11 @@ $(document).ready(function () {
         var link = "https://api.github.com/users/" + user;
        
         requestJSON(link, function (json) {
-            console.log(2);
-
             username = json.login;
             followers = json.followers;
             repos = json.repos_url;
             var output = "<h1>" + username + "</h1>";
             output += "<p> followers " + followers;
-            output += "<p> repos " + repos;
             $('#texto').html(output);
 
 

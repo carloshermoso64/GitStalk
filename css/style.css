@@ -4,7 +4,7 @@ body {
 	color: #ededed;
 	text-align: center;
 	background-color: black;
-	background-image:url("../images/backgroundWeb.png");
+	background-image:none;
 	background-repeat:no-repeat;
 	background-size:inherit;
 	}
