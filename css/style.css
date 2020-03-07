@@ -1,3 +1,12 @@
+myButton {
+	display:flex;
+	justify-content:center;
+}
+
+
+
+
+
 body {
 	font-size: 14px;
 	font-family: Verdana, Arial, Sans-Serif;
@@ -262,6 +271,7 @@ a:hover {
 body {
 	margin: 0;
 	padding: 0; 
+	text-align:center;
 	}
 
 #page {
@@ -508,6 +518,7 @@ button
 {
   font-family: calibri;
   color: black;
+  margin: 0 auto;
   box-sizing: content-box;
 }
 
@@ -535,7 +546,7 @@ td, th
 	border: 1px solid white;
 	outline: none;
 	cursor: pointer;
-	padding: 15px 10px 10px 30px;
+	padding: 10px 10px 10px 10px;
 	transition: 0.3s;
 	font-size: 20px;
 	color: white;
@@ -565,6 +576,7 @@ td, th
 {
   font-family: calibri;
   overflow: hidden;
+
 }
 
 table{
@@ -584,21 +596,34 @@ th, td {
   color: white;
   }
 
-
+.text-center button {
+	font-family: calibri;
+	text-align: center;
+	background-color: #8a1a2d;
+	outline: none;
+	cursor: pointer;
+	padding: 15px 15px 15px 15px;
+	transition: 0.3s;
+	font-size: 20px;
+	color: white;
+	width: inherit;
+	display: flex;
+}
 
 .tab button 
 {
   font-family: calibri;
+  text-align:center;
   background-color: #8a1a2d;
   float: left;
   border: 1px solid white;
   outline: none;
   cursor: pointer;
-  padding: 15px 10px 10px 30px;
+  padding: 15px 15px 15px 15px;
   transition: 0.3s;
   font-size: 20px;
   color: white;
-  width: fit-content;
+  width:inherit;
   display: block;
   
 }
